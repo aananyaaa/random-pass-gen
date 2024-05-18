@@ -1,0 +1,24 @@
+.password-too-weak {
+  color: #f00707
+}
+
+.strength-display-wrapper {
+  border: 1px solid #c4b7b7;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.strength-display-inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.strength-display-wrapper-heaading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

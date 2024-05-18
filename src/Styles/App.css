@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.background-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, rgb(42 26 143) 0%, rgb(3 10 35) 98%); 
+}
+
+.main-container {
+  width: 30em;
+  margin: 40px 20px;
+  padding: 20px 33px;
+  border-radius: 5px;
+  background: #00002c;
+  box-shadow: 0 0 5px rgba(238, 233, 233, 0.45),
+              0 4px 8px rgba(0, 0, 0, 0.35),
+              0 8px 12px rgba(239, 235, 235, 0.15);
+}
+
+.main-container-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.password-wrapper{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c4b7b7;
+  min-height: 40px; ;
+  border-radius: 3px;
+}
+
+.password-wrapper>div{
+  max-width: 300px;
+  overflow-wrap: anywhere;
+}
+
+.undo-copy-button {
+  display: flex;
+  align-items: center;
+}
+
+.options-container {
+  margin-top: 41px;
+  border: 1px solid #c4b7b7;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.options-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-bar {
+  width: 100% !important;
+  color: #110606 !important;
+}
+
+.checkboxes>li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.errorMessage {
+  color: rgb(229 17 17)
+}
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+   width: auto;  
+  }
+
+  .main-container-heading{
+    font-size:25px;
+  }
+}
+
+
